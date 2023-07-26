@@ -1,0 +1,75 @@
+header , footer{
+  background : #32CD32;
+ background : linear-gradient(#32CD32 0% , #7DF9FF 100%)
+}
+header{
+  padding-bottom :  15px;
+}
+body{
+	background:#FFA500;
+}
+h1{
+  text-align : center ;
+  color : #FFFF00;
+  word-spacing: 10px;
+  text-shadow: 2px 2px red;
+  font-family : Copperplate, Papyrus, fantasy;
+  letter-spacing : 10px;
+  font-variant: small-caps;
+  font-weight: bold;
+  font-style: oblique;
+  font-size: 400%;
+  font-family: "Sofia", sans-serif;
+}
+nav{
+ font-family: "Sofia", sans-serif;
+ font-variant : Small-caps;
+ text-align : center ;
+ font-size : 200%;
+}
+nav a {
+ color : hotpink ;
+ width : 22%;
+ display : inline-block;
+ background : #ffffff;
+ 
+}
+a:active {
+  color: blue;
+  background: linear-gradient(#ffffff 0% ,  #FFFF00 100%)
+}
+a:hover {
+  color: blue;
+}
+a:visited {
+	background : linear-gradient(#FFFF00 0% , #ffffff 100%)
+}
+.half{
+	width : 45%;
+	margin-right: 2%;
+	display : inline-block ;
+	float : left ;
+}
+.whole{
+	clear:both;
+}
+h2{
+	color: #FAF9F6;
+	background: #7DF9FF;
+	text-shadow: 1px 1px red;
+	font-weight: bold;
+}
+summary{
+	font-style:normal;
+}
+
+details{
+	font-style: italic;
+}
+footer{
+	height:100px;
+	clear: both;
+}
+img{
+	width: 75px;
+}
